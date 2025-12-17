@@ -11,11 +11,10 @@ public class ResumeFileTransfer {
 
         File file = new File("Save Path.txt");
 
-        if (file.exists()) {
+        if (file.exists()) { //yes save path file exist
 
             System.err.println("File Exist");
 
-            // yes
             try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 
                 sourcePath = br.readLine();
@@ -25,11 +24,11 @@ public class ResumeFileTransfer {
                 e.printStackTrace();
             }
 
-        } else {
+        } else { //No file exist
 
-            // No
             System.out.println("File does NOT exist");
 
+            // User select Source File for transfer
             FileChooserUtil.chooseFile();
             sourcePath = FileChooserUtil.selectedPath;
             String sourceFileName = FileChooserUtil.selectedFileName;
