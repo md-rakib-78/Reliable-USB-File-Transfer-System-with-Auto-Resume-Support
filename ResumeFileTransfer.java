@@ -4,39 +4,78 @@ public class ResumeFileTransfer {
 
     private static final int CHUNK_SIZE = 8 * 1024 * 1024; // 8 MB chunks
 
-
     public static void main(String[] args) {
 
-        FileChooserUtil.chooseFile();
-        String sourcePath= FileChooserUtil.selectedPath;
-        String sourceFileName=FileChooserUtil.selectedFileName;
+        String sourcePath = null;
+        String destPath = null;
 
-        if (sourcePath != null) {
-            System.out.println("Selected file path: "+sourcePath);
-            System.out.println("Selected file name: "+sourceFileName);
+        File file = new File("Save Path.txt");
+
+        if (file.exists()) {
+
+            System.err.println("File Exist");
+
+            // yes
+            try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+
+                sourcePath = br.readLine();
+                destPath = br.readLine();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
         } else {
-            System.out.println("No file selected.");
-            return;
+
+            // No
+            System.out.println("File does NOT exist");
+
+            FileChooserUtil.chooseFile();
+            sourcePath = FileChooserUtil.selectedPath;
+            String sourceFileName = FileChooserUtil.selectedFileName;
+
+            if (sourcePath != null) {
+                System.out.println("Selected file path: " + sourcePath);
+                System.out.println("Selected file name: " + sourceFileName);
+            } else {
+                System.out.println("No file selected.");
+                return;
+            }
+
+            // User Select Destination Path
+            FileChooserUtil.chooseFolderAndGetPath();
+            destPath = FileChooserUtil.SelectedDestinationFolder;
+
+            if (destPath != null) {
+                System.out.println("Selected folder path:");
+                System.out.println(destPath);
+            } else {
+                System.out.println("No folder selected.");
+                return;
+            }
+
+            try {
+                if (file.createNewFile()) {
+                    System.out.println("Save Path.txt created successfully");
+                }
+
+                BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+                writer.write(sourcePath);
+                writer.newLine();
+                writer.write(destPath);
+                writer.close();
+
+                System.out.println("Data written successfully!");
+
+            } catch (Exception e) {
+
+            }
+
         }
-
-
-        //User Select Destination Path
-        FileChooserUtil.chooseFolderAndGetPath();
-        String destPath = FileChooserUtil.SelectedDestinationFolder;
-
-        if (destPath != null) {
-            System.out.println("Selected folder path:");
-            System.out.println(destPath);
-        } else {
-            System.out.println("No folder selected.");
-            return;
-        }
-
-
 
         if (args.length >= 2) {
             sourcePath = args[0];
-            destPath   = args[1];
+            destPath = args[1];
         } else {
             System.out.println("Usage: java ResumeFileTransfer <sourceFile> <destFile>");
             System.out.println("Example 1 (Laptop → USB): java ResumeFileTransfer D:/Entertainment/E01.mkv H:/E01.mkv");
@@ -45,18 +84,19 @@ public class ResumeFileTransfer {
         }
 
         File sourceFile = new File(sourcePath);
-        File destFile   = new File(destPath);
-        File logFile    = new File(destFile.getName() + ".transfer.log"); // unique log per file
+        File destFile = new File(destPath);
+        File logFile = new File(destFile.getName() + ".transfer.log"); // unique log per file
 
         try {
             long resumePosition = loadProgress(logFile);
-            copyFileWithResume(sourceFile, destFile, resumePosition, logFile);
+            copyFileWithResume(sourceFile, destFile, resumePosition, logFile, file);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }///////////////
 
-    private static void copyFileWithResume(File source, File dest, long resumePosition, File logFile) throws IOException {
+    private static void copyFileWithResume(File source, File dest, long resumePosition, File logFile, File file)
+            throws IOException {
         if (!source.exists()) {
             System.out.println("Source file not found: " + source.getAbsolutePath());
             return;
@@ -66,7 +106,7 @@ public class ResumeFileTransfer {
         System.out.println("File size: " + fileSize / (1024 * 1024) + " MB");
 
         try (RandomAccessFile src = new RandomAccessFile(source, "r");
-             RandomAccessFile dst = new RandomAccessFile(dest, "rw")) {
+                RandomAccessFile dst = new RandomAccessFile(dest, "rw")) {
 
             src.seek(resumePosition);
             dst.seek(resumePosition);
@@ -87,7 +127,7 @@ public class ResumeFileTransfer {
             }
 
             System.out.println("Transfer complete!");
-            clearProgress(logFile);
+            clearProgress(logFile, file);
         }
     }///////////////////////////////////
 
@@ -107,9 +147,10 @@ public class ResumeFileTransfer {
         return 0;
     }///////////////////////////////////
 
-    private static void clearProgress(File logFile) {
+    private static void clearProgress(File logFile, File file) {
         if (logFile.exists()) {
             logFile.delete();
+            file.delete();
         }
     }///////////////////////////////////
 }
