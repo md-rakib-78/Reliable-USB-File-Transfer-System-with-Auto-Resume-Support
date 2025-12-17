@@ -6,106 +6,61 @@ public class ResumeFileTransfer {
 
     public static void main(String[] args) {
 
-        String sourcePath = null;
-        String destPath = null;
+        //User selects Source File
+        FileChooserUtil.chooseFile();
+        String sourcePath = FileChooserUtil.selectedPath;
+        String sourceFileName = FileChooserUtil.selectedFileName;
 
-        File file = new File("Save Path.txt");
-
-        if (file.exists()) { //yes save path file exist
-
-            System.err.println("File Exist");
-
-            try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-
-                sourcePath = br.readLine();
-                destPath = br.readLine();
-
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-        } else { //No file exist
-
-            System.out.println("File does NOT exist");
-
-            // User select Source File for transfer
-            FileChooserUtil.chooseFile();
-            sourcePath = FileChooserUtil.selectedPath;
-            String sourceFileName = FileChooserUtil.selectedFileName;
-
-            if (sourcePath != null) {
-                System.out.println("Selected file path: " + sourcePath);
-                System.out.println("Selected file name: " + sourceFileName);
-            } else {
-                System.out.println("No file selected.");
-                return;
-            }
-
-            // User Select Destination Path
-            FileChooserUtil.chooseFolderAndGetPath();
-            destPath = FileChooserUtil.SelectedDestinationFolder;
-
-            if (destPath != null) {
-                System.out.println("Selected folder path:");
-                System.out.println(destPath);
-            } else {
-                System.out.println("No folder selected.");
-                return;
-            }
-
-            try {
-                if (file.createNewFile()) {
-                    System.out.println("Save Path.txt created successfully");
-                }
-
-                BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-                writer.write(sourcePath);
-                writer.newLine();
-                writer.write(destPath);
-                writer.close();
-
-                System.out.println("Data written successfully!");
-
-            } catch (Exception e) {
-
-            }
-
+        if (sourcePath == null) {
+            System.out.println("No file selected.");
+            return;
         }
+        System.out.println("Selected file path: " + sourcePath);
+        System.out.println("Selected file name: " + sourceFileName);
 
-        if (args.length >= 2) {
-            sourcePath = args[0];
-            destPath = args[1];
-        } else {
-            System.out.println("Usage: java ResumeFileTransfer <sourceFile> <destFile>");
-            System.out.println("Example 1 (Laptop → USB): java ResumeFileTransfer D:/Entertainment/E01.mkv H:/E01.mkv");
-            System.out.println("Example 2 (USB → Laptop): java ResumeFileTransfer H:/E01.mkv D:/Entertainment/E01.mkv");
-            System.out.println("Using default paths for testing...");
+        //User selects Destination Folder
+        FileChooserUtil.chooseFolderAndGetPath();
+        String destFolder = FileChooserUtil.SelectedDestinationFolder;
+
+        if (destFolder == null) {
+            System.out.println("No folder selected.");
+            return;
         }
+        System.out.println("Selected destination folder: " + destFolder);
 
+        //Construct destination file path
         File sourceFile = new File(sourcePath);
-        File destFile = new File(destPath);
-        File logFile = new File(destFile.getName() + ".transfer.log"); // unique log per file
+        File destFile = new File(destFolder);
+
+        //Log file beside destination file
+        File logFile = new File(destFile.getAbsolutePath() + ".transfer.log");
 
         try {
-            long resumePosition = loadProgress(logFile);
-            copyFileWithResume(sourceFile, destFile, resumePosition, logFile, file);
-        } catch (Exception e) {
+            copyFileWithResume(sourceFile, destFile, logFile);
+        } catch (IOException e) {
+            System.out.println("Error during transfer:");
             e.printStackTrace();
         }
-    }///////////////
+    }
 
-    private static void copyFileWithResume(File source, File dest, long resumePosition, File logFile, File file)
-            throws IOException {
+    // ============================ Copy with Resume ============================
+    private static void copyFileWithResume(File source, File dest, File logFile) throws IOException {
+
         if (!source.exists()) {
             System.out.println("Source file not found: " + source.getAbsolutePath());
             return;
         }
 
         long fileSize = source.length();
+        long resumeFromLog = loadProgress(logFile);
+        long actualDestSize = dest.exists() ? dest.length() : 0;
+        long resumePosition = Math.min(resumeFromLog, actualDestSize);
+
         System.out.println("File size: " + fileSize / (1024 * 1024) + " MB");
+        System.out.println("Resuming from byte: " + resumePosition);
 
         try (RandomAccessFile src = new RandomAccessFile(source, "r");
-                RandomAccessFile dst = new RandomAccessFile(dest, "rw")) {
+             RandomAccessFile dst = new RandomAccessFile(dest, "rw")) {
 
             src.seek(resumePosition);
             dst.seek(resumePosition);
@@ -115,41 +70,53 @@ public class ResumeFileTransfer {
             long totalCopied = resumePosition;
 
             while ((bytesRead = src.read(buffer)) != -1) {
-                dst.write(buffer, 0, bytesRead);
-                totalCopied += bytesRead;
+                try {
+                    dst.write(buffer, 0, bytesRead);
+                    dst.getFD().sync(); // ensure data is written to disk
 
-                // Save progress
-                saveProgress(totalCopied, logFile);
+                    totalCopied += bytesRead;
+                    saveProgress(totalCopied, logFile);
 
-                double percent = (totalCopied * 100.0) / fileSize;
-                System.out.printf("Progress: %.2f%%%n", percent);
+                    double percent = (totalCopied * 100.0) / fileSize;
+                    System.out.printf("Progress: %.2f%%%n", percent);
+
+                } catch (IOException e) {
+                    System.out.println("\nUSB disconnected or write error!");
+                    System.out.println("Progress saved at byte: " + totalCopied);
+                    return; // safely exit, can resume later
+                }
             }
 
             System.out.println("Transfer complete!");
-            clearProgress(logFile, file);
+            clearProgress(logFile); // delete log after successful transfer
         }
-    }///////////////////////////////////
+    }
 
+    // ============================ Save Progress ============================
     private static void saveProgress(long position, File logFile) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(logFile))) {
             writer.write(Long.toString(position));
         }
-    }///////////////////////////////////
+    }
 
+    // ============================ Load Progress ============================
     private static long loadProgress(File logFile) throws IOException {
         if (logFile.exists()) {
             try (BufferedReader reader = new BufferedReader(new FileReader(logFile))) {
                 String line = reader.readLine();
                 return Long.parseLong(line.trim());
+            } catch (Exception e) {
+                System.out.println("Warning: log file corrupted, starting from 0");
+                return 0;
             }
         }
         return 0;
-    }///////////////////////////////////
+    }
 
-    private static void clearProgress(File logFile, File file) {
+    // ============================ Clear Progress ============================
+    private static void clearProgress(File logFile) {
         if (logFile.exists()) {
             logFile.delete();
-            file.delete();
         }
-    }///////////////////////////////////
+    }
 }
