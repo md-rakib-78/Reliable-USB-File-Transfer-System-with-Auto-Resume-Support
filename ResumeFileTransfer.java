@@ -2,7 +2,7 @@ import java.io.*;
 
 public class ResumeFileTransfer {
 
-    private static final int CHUNK_SIZE = 8 * 1024 * 1024; // 8 MB chunks
+    private static final int CHUNK_SIZE = 8 * 1024 * 1024; 
 
     public static void main(String[] args) {
 
@@ -43,7 +43,7 @@ public class ResumeFileTransfer {
         }
     }
 
-    // ============================ Copy with Resume ============================
+
     private static void copyFileWithResume(File source, File dest, File logFile) throws IOException {
 
         if (!source.exists()) {
@@ -72,7 +72,7 @@ public class ResumeFileTransfer {
             while ((bytesRead = src.read(buffer)) != -1) {
                 try {
                     dst.write(buffer, 0, bytesRead);
-                    dst.getFD().sync(); // ensure data is written to disk
+                    dst.getFD().sync(); 
 
                     totalCopied += bytesRead;
                     saveProgress(totalCopied, logFile);
@@ -83,23 +83,23 @@ public class ResumeFileTransfer {
                 } catch (IOException e) {
                     System.out.println("\nUSB disconnected or write error!");
                     System.out.println("Progress saved at byte: " + totalCopied);
-                    return; // safely exit, can resume later
+                    return; 
                 }
             }
 
             System.out.println("Transfer complete!");
-            clearProgress(logFile); // delete log after successful transfer
+            clearProgress(logFile); 
         }
     }
 
-    // ============================ Save Progress ============================
+
     private static void saveProgress(long position, File logFile) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(logFile))) {
             writer.write(Long.toString(position));
         }
     }
 
-    // ============================ Load Progress ============================
+
     private static long loadProgress(File logFile) throws IOException {
         if (logFile.exists()) {
             try (BufferedReader reader = new BufferedReader(new FileReader(logFile))) {
@@ -113,7 +113,7 @@ public class ResumeFileTransfer {
         return 0;
     }
 
-    // ============================ Clear Progress ============================
+
     private static void clearProgress(File logFile) {
         if (logFile.exists()) {
             logFile.delete();
