@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
   <diagram name="Page-1" id="ijm1_OzFcWU5VtBy2kwN">
-    <mxGraphModel dx="2194" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2577" dy="1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,31 +24,31 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-9" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Local File System&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External System]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Managed Source Files, Destination System,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Transfer database (transfer db.json) also manage progress logs and checksum cache&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-9" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Local File System&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[Operating System]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="180" width="300" x="60" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-12" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;USB Storage Device&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External System]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Device Metadata (json)&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;progress logs also&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="570" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-16" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-12" value="Read device connectivity&lt;div&gt;and broadbandth&lt;/div&gt;">
-          <mxGeometry relative="1" width="160" x="0.0014" as="geometry">
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-16" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-12" value="Read / Write Files">
+          <mxGeometry relative="1" width="160" x="0.0031" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="390" y="449.71" as="sourcePoint" />
             <mxPoint x="550" y="449.71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-18" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-9" value="Access transfer information&lt;div&gt;and history&lt;/div&gt;">
-          <mxGeometry relative="1" width="160" x="0.0014" as="geometry">
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-18" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-9" value="Read / Writes Files">
+          <mxGeometry relative="1" width="160" x="0.0049" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="320" y="600" as="sourcePoint" />
             <mxPoint x="530" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-19" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
-          <mxGeometry height="1150" width="910" x="30" y="10" as="geometry" />
+          <mxGeometry height="900" width="910" x="30" y="10" as="geometry" />
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-21" parent="Z2IVLXpcfSimXRDLFD5b-19" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=light-dark(#FFFFFF,#FF0303);align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;C4 Model - Level 1: System Context Diagram&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="450" x="250" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-12" parent="Z2IVLXpcfSimXRDLFD5b-19" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;USB Storage Device&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External Drive]&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="300" x="550" y="350" as="geometry" />
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-22" parent="1" style="shape=actor;whiteSpace=wrap;html=1;fillStyle=solid;fillColor=light-dark(#FFFFFF,#0368FF);" value="" vertex="1">
           <mxGeometry height="140" width="140" x="2900" y="127" as="geometry" />
@@ -56,110 +56,102 @@
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Customer&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="2940" y="217" as="geometry" />
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-24" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Desktop Application&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[Java Component]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;User can choose the file from internal storage or external storage for transfer file and&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;also user can see transfer history and&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;progress bar&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="2820" y="377" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-27" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-22" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-24" value="User access the main application providing&amp;nbsp;&lt;div&gt;file transfer capabilities&lt;/div&gt;">
-          <mxGeometry relative="1" width="160" as="geometry">
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-27" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-22" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="40IeSZm2OKaFkBejNBzx-15" value="User can transfer data through the&lt;div&gt;suitable GUI&lt;/div&gt;">
+          <mxGeometry relative="1" width="160" x="0.0036" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="2900" y="377" as="sourcePoint" />
-            <mxPoint x="3060" y="377" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-28" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Transfer Engine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;chunk transfer, resume logic, error handling,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;synk to disk&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="2410" y="377" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-29" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Progress Manager&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Save progress, load progress, clear logs,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;byte tracking&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="2410" y="667" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-30" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-24" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-28" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="2890" y="527" as="sourcePoint" />
-            <mxPoint x="3050" y="527" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-47" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Transfer&lt;div&gt;data&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.0119" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-32" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-24" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="2870" y="467" as="sourcePoint" />
-            <mxPoint x="2760" y="467" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-48" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Read&amp;nbsp;&lt;div&gt;metadata&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.083" y="2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-33" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-29" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="2840" y="647" as="sourcePoint" />
-            <mxPoint x="2730" y="647" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-46" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Passing data information" vertex="1">
-          <mxGeometry relative="1" x="-0.1447" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-34" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Device Data Manager&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;Read/Write JSON, Query Transfer,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update status, Manage Queue&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="2820" y="667" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-35" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-29" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-34" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="2560" y="607" as="sourcePoint" />
-            <mxPoint x="2560" y="717" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-44" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="write progress&lt;div&gt;status&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.1304" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-36" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Checksum Engine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;Calculate MD5, Calculate SHA256,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Verify Integrity&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="3230" y="667" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-37" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-34" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-36" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="2780" y="757" as="sourcePoint" />
-            <mxPoint x="2890" y="757" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-45" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Justify&amp;nbsp;&lt;div&gt;transfer&lt;/div&gt;&lt;div&gt;data&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.0909" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-40" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;USB Storage Device&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External System]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Device Metadata (json)&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;progress logs also&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="3310" y="377" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-41" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-24" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-40" value="Read device connectivity&lt;div&gt;and broadbandth&lt;/div&gt;">
-          <mxGeometry relative="1" width="160" x="0.0014" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="3140" y="477" as="sourcePoint" />
-            <mxPoint x="3350" y="477" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-42" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Local File System&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External System]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Managed Source Files, Destination System,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Transfer database (transfer db.json) also manage progress logs and checksum cache&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="2820" y="957" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-43" edge="1" parent="1" source="Z2IVLXpcfSimXRDLFD5b-34" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-42" value="Access transfer information&lt;div&gt;and history&lt;/div&gt;">
-          <mxGeometry relative="1" width="160" x="0.0014" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="2990" y="867" as="sourcePoint" />
-            <mxPoint x="2990" y="1007" as="targetPoint" />
+            <mxPoint x="2950" y="399.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-49" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
-          <mxGeometry height="1150" width="1300" x="2370" y="20" as="geometry" />
+          <mxGeometry height="1430" width="1370" x="2340" y="10" as="geometry" />
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-50" parent="Z2IVLXpcfSimXRDLFD5b-49" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=light-dark(#FFFFFF,#FF0303);align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;C4 Model - Level 3: Component Diagram&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="450" x="375" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-52" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
-          <mxGeometry height="1150" width="1300" x="1020" y="10" as="geometry" />
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-42" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Local File System&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[Operating System]&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="880" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-40" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;USB Storage Device&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External Drive]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Device Metadata (json)&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;progress logs also&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="850" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-29" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Progress Manager&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Save progress, load progress, clear logs,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;byte tracking&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="150" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-28" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Transfer Engine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;chunk transfer, error handling,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Synk to disk&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="255" x="505" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-36" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Checksum Engine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;Calculate MD5, Calculate SHA256,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Verify Integrity&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="230" x="505" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-9" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Z2IVLXpcfSimXRDLFD5b-42" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="880" as="sourcePoint" />
+            <mxPoint x="220" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-10" connectable="0" parent="40IeSZm2OKaFkBejNBzx-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Read / Write files" vertex="1">
+          <mxGeometry relative="1" x="-0.0372" y="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-11" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-40" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="890" y="1000" as="sourcePoint" />
+            <mxPoint x="940" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-13" connectable="0" parent="40IeSZm2OKaFkBejNBzx-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Read / Write File" vertex="1">
+          <mxGeometry relative="1" x="-0.04" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-14" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Resume Manager&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;Resume transfer to the last byte transferred&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;not restart&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="230" x="40" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-15" parent="Z2IVLXpcfSimXRDLFD5b-49" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;UI Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;[Java swing/FX Component]&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- File Selection&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Progress view&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Transfer History manage&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Mange error handle (Interrupt file resume)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Encrypted sensitive data&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="270" x="490" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-16" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="Z2IVLXpcfSimXRDLFD5b-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="790" y="690" as="sourcePoint" />
+            <mxPoint x="910" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-17" connectable="0" parent="40IeSZm2OKaFkBejNBzx-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="File Integration and&amp;nbsp;&lt;div&gt;verification&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0372" y="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-27" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-15" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=10;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="40IeSZm2OKaFkBejNBzx-14" value="Resume Interrupt files">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="560" y="590" as="sourcePoint" />
+            <mxPoint x="720" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-28" parent="Z2IVLXpcfSimXRDLFD5b-49" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#4F4E55);" value="Local Database&lt;div&gt;[Container: JSON]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="210" x="30" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-29" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-14" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-28" value="Request to transfer">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="650" y="650" as="sourcePoint" />
+            <mxPoint x="420" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-31" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-15" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-28" value="Request to transfer">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="450" y="560" as="sourcePoint" />
+            <mxPoint x="685" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-32" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-14" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="40IeSZm2OKaFkBejNBzx-28" value="Request to transfer">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="440" y="560" as="sourcePoint" />
+            <mxPoint x="675" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-52" parent="1" style="swimlane;startSize=0;fillColor=light-dark(#FFFFFF,#08B1FF);" value="" vertex="1">
+          <mxGeometry height="1150" width="1300" x="1000" y="10" as="geometry" />
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-53" parent="Z2IVLXpcfSimXRDLFD5b-52" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=light-dark(#FFFFFF,#FF0303);align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;C4 Model - Level 2: Container Diagram&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="450" x="405" y="50" as="geometry" />
@@ -170,7 +162,7 @@
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-55" parent="Z2IVLXpcfSimXRDLFD5b-52" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Customer&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="600" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-56" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Desktop Application&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[Java&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Container&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;User can choose the file from internal storage or external storage for transfer file and&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;also user can see transfer history and&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;progress bar&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-56" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Desktop Application&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[Java / Java Swing&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Container&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;User can choose the file from internal storage or external storage for transfer file and&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;also user can see transfer history and&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;progress bar&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="180" width="300" x="480" y="360" as="geometry" />
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-57" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-54" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-56" value="User access the main application providing&amp;nbsp;&lt;div&gt;file transfer capabilities&lt;/div&gt;">
@@ -179,91 +171,68 @@
             <mxPoint x="720" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-58" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Transfer Engine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java Container]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;chunk transfer, resume logic, error handling,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;synk to disk&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="70" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-59" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Progress Manager&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Container&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Save progress, load progress, clear logs,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;byte tracking&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="70" y="650" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-60" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-56" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-58" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="550" y="510" as="sourcePoint" />
-            <mxPoint x="710" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-61" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Transfer&lt;div&gt;data&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.0119" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-62" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-58" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-56" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="530" y="450" as="sourcePoint" />
-            <mxPoint x="420" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-63" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Read&amp;nbsp;&lt;div&gt;metadata&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.083" y="2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-64" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-58" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-59" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="500" y="630" as="sourcePoint" />
-            <mxPoint x="390" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-65" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Passing data information" vertex="1">
-          <mxGeometry relative="1" x="-0.1447" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-66" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Device Data Manager&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Container&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;Read/Write JSON, Query Transfer,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update status, Manage Queue&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="480" y="650" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-67" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-59" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-66" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="220" y="590" as="sourcePoint" />
-            <mxPoint x="220" y="700" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-68" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="write progress&lt;div&gt;status&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.1304" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-69" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Checksum Engine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Container&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;Calculate MD5, Calculate SHA256,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Verify Integrity&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="890" y="650" as="geometry" />
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-70" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-66" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-69" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="440" y="740" as="sourcePoint" />
-            <mxPoint x="550" y="740" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-71" connectable="0" parent="Z2IVLXpcfSimXRDLFD5b-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Justify&amp;nbsp;&lt;div&gt;transfer&lt;/div&gt;&lt;div&gt;data&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.0909" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-72" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;USB Storage Device&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External System]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Device Metadata (json)&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;progress logs also&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-72" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;USB Storage Device&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External Drive]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Device Metadata (json)&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;progress logs also&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="180" width="300" x="970" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-73" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-56" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-72" value="Read device connectivity&lt;div&gt;and broadbandth&lt;/div&gt;">
-          <mxGeometry relative="1" width="160" x="0.0014" as="geometry">
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-73" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-56" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-72" value="Read / Writes File">
+          <mxGeometry relative="1" width="160" x="0.004" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="800" y="460" as="sourcePoint" />
             <mxPoint x="1010" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-74" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Local File System&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External System]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Managed Source Files, Destination System,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Transfer database (transfer db.json) also manage progress logs and checksum cache&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="300" x="480" y="940" as="geometry" />
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-74" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Local File System&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[Operating System]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Managed Source Files, Destination System,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Transfer database (transfer db.json) also manage progress logs and checksum cache&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="300" x="975" y="630" as="geometry" />
         </mxCell>
-        <mxCell id="Z2IVLXpcfSimXRDLFD5b-75" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-66" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-74" value="Access transfer information&lt;div&gt;and history&lt;/div&gt;">
+        <mxCell id="Z2IVLXpcfSimXRDLFD5b-75" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-56" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-74" value="Read / Writes File">
           <mxGeometry relative="1" width="160" x="0.0014" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="650" y="850" as="sourcePoint" />
+            <mxPoint x="630" y="830" as="sourcePoint" />
             <mxPoint x="650" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-1" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Visualization Dashboard&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[Container: Graphics Libaries]&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="300" x="40" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-2" parent="Z2IVLXpcfSimXRDLFD5b-52" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;History Application&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[Java&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Container&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="300" x="480" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-3" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-56" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="40IeSZm2OKaFkBejNBzx-2" value="Make Request to">
+          <mxGeometry relative="1" width="160" x="0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="920" y="600" as="sourcePoint" />
+            <mxPoint x="1115" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-4" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="40IeSZm2OKaFkBejNBzx-2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="40IeSZm2OKaFkBejNBzx-7" value="Read JSON to">
+          <mxGeometry relative="1" width="160" x="0.0062" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="940" y="620" as="sourcePoint" />
+            <mxPoint x="1135" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-5" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="40IeSZm2OKaFkBejNBzx-2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="40IeSZm2OKaFkBejNBzx-1" value="Sends data to">
+          <mxGeometry relative="1" width="160" x="0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="630" y="620" as="sourcePoint" />
+            <mxPoint x="630" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-6" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="40IeSZm2OKaFkBejNBzx-1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-56" value="Sends Data to">
+          <mxGeometry relative="1" width="160" x="0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="590" y="750" as="sourcePoint" />
+            <mxPoint x="450" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-7" parent="Z2IVLXpcfSimXRDLFD5b-52" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#088AFF);" value="Local Database&lt;div&gt;[Container: JSON]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="210" x="525" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-8" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-52" source="Z2IVLXpcfSimXRDLFD5b-74" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" target="40IeSZm2OKaFkBejNBzx-7" value="Write metadata to&amp;nbsp;">
+          <mxGeometry relative="1" width="160" x="0.0062" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="910" y="830" as="sourcePoint" />
+            <mxPoint x="910" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
