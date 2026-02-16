@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
   <diagram name="Page-1" id="ijm1_OzFcWU5VtBy2kwN">
-    <mxGraphModel dx="2085" dy="1245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,16 +73,16 @@
           <mxGeometry height="90" width="160" x="860" y="670" as="geometry" />
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-40" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#808080);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;USB Storage Device&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[External Drive]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Device Metadata (json)&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;progress logs also&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="200" x="850" y="420" as="geometry" />
+          <mxGeometry height="120" width="200" x="870" y="400" as="geometry" />
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-29" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Progress Manager&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Save progress, load progress, clear logs,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;byte tracking&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="240" x="160" y="570" as="geometry" />
+          <mxGeometry height="120" width="240" x="450" y="730" as="geometry" />
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-28" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Transfer Engine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;chunk transfer, error handling,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Synk to disk&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="255" x="497.5" y="550" as="geometry" />
+          <mxGeometry height="110" width="255" x="520" y="550" as="geometry" />
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-36" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Checksum Engine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;Calculate MD5, Calculate SHA256,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Verify Integrity&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="230" x="390" y="710" as="geometry" />
+          <mxGeometry height="100" width="220" x="210" y="630" as="geometry" />
         </mxCell>
         <mxCell id="40IeSZm2OKaFkBejNBzx-9" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Z2IVLXpcfSimXRDLFD5b-42" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -107,12 +107,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="40IeSZm2OKaFkBejNBzx-14" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Resume Manager&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Java Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;Resume transfer to the last byte transferred&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;not restart&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="230" x="90" y="400" as="geometry" />
+          <mxGeometry height="120" width="230" x="120" y="450" as="geometry" />
         </mxCell>
         <mxCell id="40IeSZm2OKaFkBejNBzx-15" parent="Z2IVLXpcfSimXRDLFD5b-49" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;UI Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;[Java swing/FX Component]&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- File Selection&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Progress view&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Transfer History manage&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Mange error handle (Interrupt file resume)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Encrypted sensitive data&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="270" x="490" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="40IeSZm2OKaFkBejNBzx-16" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="Z2IVLXpcfSimXRDLFD5b-36" value="">
+        <mxCell id="40IeSZm2OKaFkBejNBzx-16" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="Z2IVLXpcfSimXRDLFD5b-36" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="790" y="690" as="sourcePoint" />
             <mxPoint x="910" y="760" as="targetPoint" />
@@ -130,7 +130,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="40IeSZm2OKaFkBejNBzx-28" parent="Z2IVLXpcfSimXRDLFD5b-49" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#4F4E55);" value="Local Database&lt;div&gt;[Container: JSON]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="210" x="80" y="890" as="geometry" />
+          <mxGeometry height="130" width="210" x="80" y="900" as="geometry" />
         </mxCell>
         <mxCell id="40IeSZm2OKaFkBejNBzx-29" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-14" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Z2IVLXpcfSimXRDLFD5b-28" value="Request to transfer">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -144,29 +144,30 @@
             <mxPoint x="685" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="40IeSZm2OKaFkBejNBzx-32" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-14" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="40IeSZm2OKaFkBejNBzx-28" value="Make Request&amp;nbsp;&lt;div&gt;Read metadata&lt;/div&gt;">
+        <mxCell id="40IeSZm2OKaFkBejNBzx-32" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-14" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="40IeSZm2OKaFkBejNBzx-42" value="Get Last save&amp;nbsp;&lt;div&gt;checkpoint&lt;/div&gt;">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="440" y="560" as="sourcePoint" />
             <mxPoint x="675" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="40IeSZm2OKaFkBejNBzx-33" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-29" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="40IeSZm2OKaFkBejNBzx-28" value="Make Request to&amp;nbsp;&lt;div&gt;write metadata&lt;/div&gt;">
+        <mxCell id="40IeSZm2OKaFkBejNBzx-33" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-29" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="40IeSZm2OKaFkBejNBzx-28" value="Make Request to&amp;nbsp;&lt;div&gt;write metadata&lt;/div&gt;">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="138" y="650" as="sourcePoint" />
             <mxPoint x="100" y="1024" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="40IeSZm2OKaFkBejNBzx-34" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="Z2IVLXpcfSimXRDLFD5b-29" value="Frequently&lt;div&gt;update&lt;/div&gt;&lt;div&gt;progress&lt;/div&gt;">
+        <mxCell id="40IeSZm2OKaFkBejNBzx-34" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="Z2IVLXpcfSimXRDLFD5b-28" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="Z2IVLXpcfSimXRDLFD5b-29" value="Frequently&lt;div&gt;update&lt;/div&gt;&lt;div&gt;progress&lt;/div&gt;">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="355" y="770" as="sourcePoint" />
             <mxPoint x="220" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="40IeSZm2OKaFkBejNBzx-35" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF, #0894ff);strokeColor=light-dark(#000000,#FFFFFF);" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;History Manager&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[Java&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="187.5" x="650" y="740" as="geometry" />
+          <mxGeometry height="100" width="187.5" x="710" y="850" as="geometry" />
         </mxCell>
         <mxCell id="40IeSZm2OKaFkBejNBzx-36" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-15" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="40IeSZm2OKaFkBejNBzx-35" value="Make Request to">
-          <mxGeometry relative="1" width="160" as="geometry">
+          <mxGeometry relative="1" width="160" x="0.0694" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="1080" y="380" />
               <mxPoint x="1080" y="790" />
@@ -175,10 +176,10 @@
             <mxPoint x="840" y="1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="40IeSZm2OKaFkBejNBzx-40" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-35" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="40IeSZm2OKaFkBejNBzx-28" value="">
+        <mxCell id="40IeSZm2OKaFkBejNBzx-40" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-35" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="40IeSZm2OKaFkBejNBzx-28" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="960" />
+              <mxPoint x="640" y="940" />
             </Array>
             <mxPoint x="485" y="850" as="sourcePoint" />
             <mxPoint x="350" y="1110" as="targetPoint" />
@@ -187,6 +188,15 @@
         <mxCell id="40IeSZm2OKaFkBejNBzx-41" connectable="0" parent="40IeSZm2OKaFkBejNBzx-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Request for json file" vertex="1">
           <mxGeometry relative="1" x="0.0446" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-42" parent="Z2IVLXpcfSimXRDLFD5b-49" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0894FF);" value="&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Error/Device Monitor&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Component]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;Detect Disconnection&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="60" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="40IeSZm2OKaFkBejNBzx-44" edge="1" parent="Z2IVLXpcfSimXRDLFD5b-49" source="40IeSZm2OKaFkBejNBzx-42" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="40IeSZm2OKaFkBejNBzx-28" value="Write or read mark interrupted">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="190" y="720" as="sourcePoint" />
+            <mxPoint x="215" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z2IVLXpcfSimXRDLFD5b-52" parent="1" style="swimlane;startSize=0;fillColor=light-dark(#FFFFFF,#08B1FF);" value="" vertex="1">
